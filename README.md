@@ -65,6 +65,23 @@ A qualidade dos dados é fundamental para garantir que as análises e os insight
   - Monitore o tempo que leva para os dados serem extraídos, transformados e carregados.
   - Implemente alertas para qualquer falha ou anomalia durante o processo ETL.
   - Descreva como você rastrearia um problema no pipeline, desde o alerta até a fonte do problema.
+ 
+### 6. Teste Unitário
+
+#### Descrição
+
+Os testes unitários são fundamentais para garantir a robustez e confiabilidade do código, permitindo identificar e corrigir bugs e erros antes que eles atinjam o ambiente de produção. Para este desafio:
+
+- Escolha uma das funções ou classes que você implementou nas etapas anteriores deste teste.
+- Escreva testes unitários para esta função ou classe. Os testes devem cobrir:
+  - Casos padrão ou "happy path".
+  - Casos de borda ou extremos.
+  - Situações de erro ou exceção.
+- Utilize uma biblioteca de testes de sua escolha (como `pytest`, `unittest`, etc.).
+- Documente os resultados dos testes e, caso encontre falhas através dos testes, descreva como as corrigiria.
+
+Dica: Valorizamos a cobertura de código, mas também a relevância e qualidade dos testes. Não é apenas sobre escrever muitos testes, mas sobre escrever testes significativos que garantam a confiabilidade do sistema.
+
 ---
 # O que é esperado do candidato
 
