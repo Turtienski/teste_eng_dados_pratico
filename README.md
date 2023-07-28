@@ -50,6 +50,21 @@ Escreva um script Python para:
 - Coletar dados dessa API para uma cidade de sua escolha.
 - Armazenar os dados coletados em um banco de dados relacional ou NoSQL(de sua escolha).
 
+### 5. Data Quality & Observability
+
+#### Descrição
+
+A qualidade dos dados é fundamental para garantir que as análises e os insights derivados sejam confiáveis. Observabilidade, por outro lado, refere-se à capacidade de monitorar e entender o comportamento dos sistemas. Para este desafio:
+
+- Utilize o arquivo `sales_data.csv` e implemente verificações de qualidade de dados. Por exemplo:
+  - Verifique se todos os IDs de usuários são únicos.
+  - Confirme se os valores de vendas não são negativos.
+  - Garanta que todas as entradas tenham timestamps válidos.
+  - Quantidade de linhas ingeridas no banco de dados de sua escolha é igual a quantidade de linhas originais
+- Crie métricas de observabilidade para o processo ETL que você desenvolveu anteriormente(não é necessário implementação):
+  - Monitore o tempo que leva para os dados serem extraídos, transformados e carregados.
+  - Implemente alertas para qualquer falha ou anomalia durante o processo ETL.
+  - Descreva como você rastrearia um problema no pipeline, desde o alerta até a fonte do problema.
 ---
 # O que é esperado do candidato
 
