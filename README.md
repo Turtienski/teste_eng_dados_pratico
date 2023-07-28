@@ -40,7 +40,7 @@ Proponha uma arquitetura em AWS para coletar dados de diferentes fontes:
 - Processe esses dados em tempo real.
 - Armazene os dados para análise futura.
 
-### 5. Codificação
+### 4. Codificação
 
 #### Descrição
 
