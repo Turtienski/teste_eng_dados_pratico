@@ -1,0 +1,9 @@
+boto3
+diagrams
+graphviz
+ipykernel   
+pandas      
+plotly      
+pyspark     
+pytest      
+requests  
