@@ -5,5 +5,7 @@ ipykernel
 pandas      
 plotly      
 pyspark     
-pytest      
+pytest  
+python-dotenv
 requests  
+unitest
