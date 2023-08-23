@@ -65,7 +65,6 @@ A qualidade dos dados é fundamental para garantir que as análises e os insight
   - Monitore o tempo que leva para os dados serem extraídos, transformados e carregados.
   - Implemente alertas para qualquer falha ou anomalia durante o processo ETL.
   - Descreva como você rastrearia um problema no pipeline, desde o alerta até a fonte do problema.
----
 
 ### 6. Teste Unitário
 
@@ -83,6 +82,7 @@ Os testes unitários são fundamentais para garantir a robustez e confiabilidade
 
 Dica: Valorizamos a cobertura de código, mas também a relevância e qualidade dos testes. Não é apenas sobre escrever muitos testes, mas sobre escrever testes significativos que garantam a confiabilidade do sistema.
 
+---
 # O que é esperado do candidato
 
 Caro candidato, o teste prático proposto visa avaliar suas habilidades, competências e abordagem como Engenheiro de Dados. Aqui está o que esperamos de você:
