@@ -1,0 +1,8 @@
+application: sales_etl
+path_data: 'C:\Users\de_go\Desktop\Denise\teste_eng_dados_pratico\1- ETL e manipulacao\data\sales_data.csv'
+path_log: 'C:\Users\de_go\Desktop\Denise\teste_eng_dados_pratico\1- ETL e manipulacao\logs\log.txt'
+db_name: 'sales_bd'
+recipients:
+  - "de.gazotto@gmail.com"
+subject: "ETL could not be completed"
+efrom: "example@example.com"
