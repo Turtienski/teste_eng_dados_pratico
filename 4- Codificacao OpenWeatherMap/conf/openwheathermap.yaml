@@ -1,0 +1,8 @@
+application: openwheathermap
+path_log: 'C:\Users\de_go\Desktop\Denise\teste_eng_dados_pratico\4- Codificacao OpenWeatherMap\logs\log.txt'
+api_key: 'yourapikey'
+city: 'Catanduva - SP'
+longitude: '-48.97'
+latitude:  '-21.14'
+mongo_url: 'mongodb://localhost:27017/'
+db_name: 'openwheathermap'

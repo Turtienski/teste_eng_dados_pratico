@@ -6,7 +6,7 @@ from pyspark.sql import SparkSession
 import pyspark.sql.functions as sql
 
 
-# Main class to extract, load and transform sales.csv file
+# Main class to analyse website_logs using using PySpark
 
 class Main:
 
@@ -69,7 +69,7 @@ class Main:
 			result.show()
 
 		except Exception as e:
-			print("DataQuality failed")
+			print("Analysis failed")
 			logging.error(e)
 
 
