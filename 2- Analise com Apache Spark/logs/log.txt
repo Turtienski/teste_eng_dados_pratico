@@ -1,0 +1,59 @@
+2023-11-18 15:50:04,594 - INFO - Creating SparkSession
+2023-11-18 15:50:10,157 - INFO - Reading data
+2023-11-18 15:50:18,613 - ERROR - name 'col' is not defined
+2023-11-18 15:50:18,627 - INFO - Closing down clientserver connection
+2023-11-18 15:50:43,177 - INFO - Creating SparkSession
+2023-11-18 15:50:49,518 - INFO - Reading data
+2023-11-18 15:50:58,176 - INFO - Closing down clientserver connection
+2023-11-18 15:54:48,231 - INFO - Creating SparkSession
+2023-11-18 15:54:54,090 - INFO - Reading data
+2023-11-18 15:55:02,580 - ERROR - [UNRESOLVED_COLUMN.WITH_SUGGESTION] A column or function parameter with name `df2_b`.`date` cannot be resolved. Did you mean one of the following? [`df2_a`.`date`, `df1_a`.`date`, `df2_a`.`final_date`, `df2_a`.`page_url`, `df2_a`.`user_id`].;
+'Join Inner, ((((user_id#17 = user_id#69) AND (page_url#18 = page_url#70)) AND (date#20 < date#72)) AND ('df2_b.date <= final_date#63))
+:- SubqueryAlias df1_a
+:  +- Project [user_id#17, page_url#18, session_duration#19, date#20, date_add(date#20, 7) AS final_date#63]
+:     +- Relation [user_id#17,page_url#18,session_duration#19,date#20] csv
++- SubqueryAlias df2_a
+   +- Project [user_id#69, page_url#70, session_duration#71, date#72, date_add(date#72, 7) AS final_date#73]
+      +- Relation [user_id#69,page_url#70,session_duration#71,date#72] csv
+
+2023-11-18 15:55:02,600 - INFO - Closing down clientserver connection
+2023-11-18 15:55:28,230 - INFO - Creating SparkSession
+2023-11-18 15:55:33,864 - INFO - Reading data
+2023-11-18 15:55:42,430 - INFO - Closing down clientserver connection
+2023-11-18 15:59:02,797 - INFO - Creating SparkSession
+2023-11-18 15:59:08,243 - INFO - Reading data
+2023-11-18 15:59:16,848 - ERROR - 'int' object has no attribute 'show'
+2023-11-18 15:59:16,861 - INFO - Closing down clientserver connection
+2023-11-18 16:00:02,836 - INFO - Creating SparkSession
+2023-11-18 16:00:08,257 - INFO - Reading data
+2023-11-18 16:00:17,139 - INFO - Closing down clientserver connection
+2023-11-18 16:01:02,210 - INFO - Creating SparkSession
+2023-11-18 16:01:07,801 - INFO - Reading data
+2023-11-18 16:01:17,148 - INFO - Closing down clientserver connection
+2023-11-18 16:04:25,255 - INFO - Creating SparkSession
+2023-11-18 16:04:30,897 - INFO - Reading data
+2023-11-18 16:04:39,336 - INFO - Closing down clientserver connection
+2023-11-18 16:05:11,684 - INFO - Creating SparkSession
+2023-11-18 16:05:17,127 - INFO - Reading data
+2023-11-18 16:05:25,248 - INFO - Closing down clientserver connection
+2023-11-18 16:05:49,864 - INFO - Creating SparkSession
+2023-11-18 16:05:55,571 - INFO - Reading data
+2023-11-18 16:06:04,944 - INFO - Closing down clientserver connection
+2023-11-18 16:09:34,944 - INFO - Creating SparkSession
+2023-11-18 16:09:40,725 - INFO - Reading data
+2023-11-18 16:09:49,170 - ERROR - [UNRESOLVED_COLUMN.WITH_SUGGESTION] A column or function parameter with name `count` cannot be resolved. Did you mean one of the following? [`df1_a`.`page_url`, `count(DISTINCT user_id)`].;
+'Sort ['count DESC NULLS LAST], true
++- Aggregate [page_url#18], [page_url#18, count(distinct user_id#17) AS count(DISTINCT user_id)#100L]
+   +- Project [user_id#17, page_url#18]
+      +- Join Inner, ((((user_id#17 = user_id#69) AND (page_url#18 = page_url#70)) AND (date#20 < date#72)) AND (date#72 <= final_date#63))
+         :- SubqueryAlias df1_a
+         :  +- Project [user_id#17, page_url#18, session_duration#19, date#20, date_add(date#20, 7) AS final_date#63]
+         :     +- Relation [user_id#17,page_url#18,session_duration#19,date#20] csv
+         +- SubqueryAlias df2_a
+            +- Project [user_id#69, page_url#70, session_duration#71, date#72, date_add(date#72, 7) AS final_date#73]
+               +- Relation [user_id#69,page_url#70,session_duration#71,date#72] csv
+
+2023-11-18 16:09:49,181 - INFO - Closing down clientserver connection
+2023-11-18 16:10:19,851 - INFO - Creating SparkSession
+2023-11-18 16:10:25,515 - INFO - Reading data
+2023-11-18 16:10:34,822 - INFO - Closing down clientserver connection
