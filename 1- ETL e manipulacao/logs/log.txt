@@ -1,0 +1,93 @@
+2023-11-17 10:35:00,110 - INFO - Reading csv
+2023-11-17 10:35:00,141 - INFO - Applying data quality rules
+2023-11-17 10:35:00,173 - INFO - Connecting to mysql and loading data to stage
+2023-11-17 10:35:00,475 - INFO - Data manipulation
+2023-11-17 13:57:34,323 - INFO - Reading csv
+2023-11-17 13:57:34,327 - INFO - Applying data quality rules
+2023-11-17 13:57:34,360 - INFO - Connecting to mysql and loading data to stage
+2023-11-17 13:57:34,704 - INFO - Data manipulation
+2023-11-17 13:59:54,371 - INFO - Reading csv
+2023-11-17 13:59:54,375 - INFO - Applying data quality rules
+2023-11-17 13:59:54,375 - INFO - Connecting to mysql and loading data to stage
+2023-11-17 13:59:54,582 - INFO - Data manipulation
+2023-11-17 14:00:25,675 - INFO - Reading csv
+2023-11-17 14:00:25,678 - INFO - Applying data quality rules
+2023-11-17 14:00:25,688 - INFO - Connecting to mysql and loading data to stage
+2023-11-17 14:00:25,908 - INFO - Data manipulation
+2023-11-17 14:02:07,702 - INFO - Reading csv
+2023-11-17 14:02:07,702 - INFO - Applying data quality rules
+2023-11-17 14:02:07,722 - INFO - Connecting to mysql and loading data to stage
+2023-11-17 14:02:07,910 - INFO - Data manipulation
+2023-11-17 14:02:49,849 - INFO - Reading csv
+2023-11-17 14:02:49,849 - INFO - Applying data quality rules
+2023-11-17 14:02:49,864 - INFO - Connecting to mysql and loading data to stage
+2023-11-17 14:02:50,106 - INFO - Data manipulation
+2023-11-17 14:03:06,447 - INFO - Reading csv
+2023-11-17 14:03:06,447 - INFO - Applying data quality rules
+2023-11-17 14:03:06,462 - INFO - Connecting to mysql and loading data to stage
+2023-11-17 14:03:06,656 - INFO - Data manipulation
+2023-11-17 14:04:32,620 - INFO - Reading csv
+2023-11-17 14:04:32,623 - INFO - Applying data quality rules
+2023-11-17 14:04:32,624 - ERROR - name 'row' is not defined
+2023-11-17 14:04:32,624 - INFO - Connecting to mysql and loading data to stage
+2023-11-17 14:04:32,907 - INFO - Data manipulation
+2023-11-17 14:08:17,075 - INFO - Reading csv
+2023-11-17 14:08:17,078 - INFO - Applying data quality rules
+2023-11-17 14:08:17,078 - ERROR - name 'row' is not defined
+2023-11-17 14:08:17,078 - INFO - Connecting to mysql and loading data to stage
+2023-11-17 14:08:17,572 - INFO - Data manipulation
+2023-11-17 14:08:41,935 - INFO - Reading csv
+2023-11-17 14:08:41,935 - INFO - Applying data quality rules
+2023-11-17 14:08:41,939 - ERROR - 'dict' object has no attribute 'empty'
+2023-11-17 14:08:41,939 - INFO - Connecting to mysql and loading data to stage
+2023-11-17 14:08:42,363 - INFO - Data manipulation
+2023-11-17 14:09:06,742 - INFO - Reading csv
+2023-11-17 14:09:06,744 - INFO - Applying data quality rules
+2023-11-17 14:09:06,759 - ERROR - [['header' 'Columns not found: transact_id']]
+2023-11-17 14:12:28,214 - INFO - Reading csv
+2023-11-17 14:12:28,214 - INFO - Applying data quality rules
+2023-11-17 14:12:28,225 - ERROR - [[1001 '2023-07-25' 501 2001 -1 'FICT' 'sale_value']
+ [1002 '2023-07-25' 502 2001 300 'FICT' 'transaction_id']
+ [1002 '2023-07-25' 501 2002 160 'FICT' 'transaction_id']
+ [1006 'aloha' 505 2001 120 'FICT' 'date']]
+2023-11-17 14:16:01,061 - INFO - Reading csv
+2023-11-17 14:16:01,061 - INFO - Applying data quality rules
+2023-11-17 14:16:01,085 - ERROR - [[1001 '2023-07-25' 501 2001 -1 'FICT' 'sale_value']
+ [1002 '2023-07-25' 502 2001 300 'FICT' 'transaction_id']
+ [1002 '2023-07-25' 501 2002 160 'FICT' 'transaction_id']
+ [1006 'aloha' 505 2001 120 'FICT' 'date']]
+2023-11-17 14:29:47,303 - INFO - Reading csv
+2023-11-17 14:29:47,308 - INFO - Applying data quality rules
+2023-11-17 14:29:47,314 - INFO - Connecting to mysql and loading data to stage
+2023-11-17 14:29:47,544 - INFO - Data manipulation
+2023-11-17 14:29:47,544 - ERROR - This result object does not return rows. It has been closed automatically.
+2023-11-17 14:37:53,601 - INFO - Reading csv
+2023-11-17 14:37:53,601 - INFO - Applying data quality rules
+2023-11-17 14:37:53,618 - INFO - Connecting to mysql and loading data to stage
+2023-11-17 14:37:53,915 - INFO - Data manipulation
+2023-11-17 14:37:53,918 - ERROR - This result object does not return rows. It has been closed automatically.
+2023-11-17 14:38:13,534 - INFO - Reading csv
+2023-11-17 14:38:13,534 - INFO - Applying data quality rules
+2023-11-17 14:38:13,551 - INFO - Connecting to mysql and loading data to stage
+2023-11-17 14:38:13,830 - INFO - Data manipulation
+2023-11-17 14:38:13,830 - ERROR - This result object does not return rows. It has been closed automatically.
+2023-11-17 14:55:33,760 - INFO - Reading csv
+2023-11-17 14:55:33,760 - INFO - Applying data quality rules
+2023-11-17 14:55:33,774 - INFO - Connecting to mysql and loading data to stage
+2023-11-17 14:55:34,012 - INFO - Data manipulation
+2023-11-17 14:55:34,126 - ERROR - name 'results' is not defined
+2023-11-17 14:56:01,947 - INFO - Reading csv
+2023-11-17 14:56:01,963 - INFO - Applying data quality rules
+2023-11-17 14:56:01,965 - INFO - Connecting to mysql and loading data to stage
+2023-11-17 14:56:02,180 - INFO - Data manipulation
+2023-11-17 14:56:02,233 - INFO - ETL executed successfully
+2023-11-17 14:58:18,233 - INFO - Reading csv
+2023-11-17 14:58:18,233 - INFO - Applying data quality rules
+2023-11-17 14:58:18,245 - INFO - Connecting to mysql and loading data to stage
+2023-11-17 14:58:18,445 - INFO - Data manipulation
+2023-11-17 14:58:18,506 - INFO - ETL executed successfully
+2023-11-17 14:59:33,930 - INFO - Reading csv
+2023-11-17 14:59:33,930 - INFO - Applying data quality rules
+2023-11-17 14:59:33,930 - INFO - Connecting to mysql and loading data to stage
+2023-11-17 14:59:34,114 - INFO - Data manipulation
+2023-11-17 14:59:34,167 - ERROR - Not all records were loaded

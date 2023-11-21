@@ -1,0 +1,3 @@
+- O produto mais vendido é o 501;
+- O vendedor 2003 está abaixo da média de vendas por vendedor (13);
+- A média é de 4 vendas por dia, 25/07 foi atípico (6 vendas) e 03/08 também (1 venda) 

@@ -1,0 +1,12 @@
+2023-11-18 19:28:22,315 - INFO - Creating mongodb connection
+2023-11-18 19:28:22,318 - INFO - Making API call
+2023-11-18 19:28:23,308 - INFO - Save results to mongodb
+2023-11-18 19:29:16,998 - INFO - Creating mongodb connection
+2023-11-18 19:29:17,003 - INFO - Making API call
+2023-11-18 19:29:18,030 - INFO - Save results to mongodb
+2023-11-18 19:38:05,630 - INFO - Creating mongodb connection
+2023-11-18 19:38:05,634 - INFO - Making API call
+2023-11-18 19:38:06,598 - ERROR - can only concatenate str (not "int") to str
+2023-11-18 19:38:51,392 - INFO - Creating mongodb connection
+2023-11-18 19:38:51,396 - INFO - Making API call
+2023-11-18 19:38:52,369 - INFO - Save results to mongodb

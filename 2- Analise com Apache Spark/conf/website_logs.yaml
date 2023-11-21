@@ -1,0 +1,3 @@
+application: website_logs
+path_data: 'C:\Users\de_go\Desktop\Denise\teste_eng_dados_pratico\2- Analise com Apache Spark\data\website_logs.csv'
+path_log: 'C:\Users\de_go\Desktop\Denise\teste_eng_dados_pratico\2- Analise com Apache Spark\logs\log.txt'

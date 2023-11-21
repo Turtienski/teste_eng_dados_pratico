@@ -1,0 +1,26 @@
+O Apache Spark é um mecanismo de análise unificado para processamento de dados em grande escala com módulos integrados para SQL, streaming, machine learning e processamento de gráficos. 
+
+O Spark pode ser executado no Apache Hadoop, Apache Mesos, Kubernetes, por conta própria, na nuvem e em diversas fontes de dados.
+
+Quando você usa o Apache Spark em vez do Apache Hadoop? Ambos estão entre os sistemas distribuídos mais proeminentes do mercado hoje. Ambos são projetos de nível superior semelhantes do Apache que costumam ser usados juntos. 
+
+O Hadoop é usado principalmente para operações com uso intenso de disco com o paradigma MapReduce. O Spark é uma arquitetura de processamento na memória mais flexível e geralmente mais cara.
+
+O ecossistema Spark inclui cinco componentes principais:
+1. O Spark Core é um mecanismo de processamento de dados distribuído de uso geral. Além disso, há bibliotecas para SQL, processamento de stream, machine learning e computação gráfica, sendo que todas elas podem ser usadas juntas em um aplicativo.
+2. Spark SQL é o módulo Spark para trabalhar com dados estruturados. Ele permite consultar dados usando SQL ou uma API DataFrame familiar. O Spark SQL oferece suporte à sintaxe HiveQL e permite o acesso a armazenamentos existentes do Apache Hive.
+3. O Spark Streaming facilita a criação de soluções de streaming escalonáveis e tolerantes a falhas.
+4. MLlib é a biblioteca de machine learning escalonável do Spark com ferramentas que tornam a ML prática escalonável e fácil. MLlib contém muitos algoritmos de aprendizado comuns, como classificação, regressão, recomendação e clustering.
+5. GraphX é a API Spark para gráficos e computação paralela a gráficos. É flexível e funciona perfeitamente com gráficos e coleções. Unifica extrair, transformar, carregar, análise exploratória, e computação gráfica iterativa em um sistema.
+
+PySpark é uma API em Python para executar o Spark e foi lançado para oferecer suporte à colaboração entre Apache Spark e Python.
+
+- Using PySpark we can run applications parallelly on the distributed cluster (multiple nodes).
+- Apache Spark is an open-source unified analytics engine used for large-scale data processing
+- It was created to address the limitations of MapReduce, by doing in-memory processing. Spark reuses data by using an in-memory cache to speed up machine learning algorithms that repeatedly call a function on the same dataset.
+- It is also a multi-language engine, that provides APIs (Application Programming Interfaces) and libraries for several programming languages like Java, Scala, Python, and R.
+- PySpark is very well used in the Data Science and Machine Learning community as there are many widely used data science libraries written in Python including NumPy, and TensorFlow. Also used due to its efficient processing of large datasets.
+- Applications running on PySpark are 100x faster than traditional systems.
+- Using PySpark we can process data from Hadoop HDFS, AWS S3, and many file systems
+
+fonte: https://cloud.google.com/learn/what-is-apache-spark?hl=pt-br
