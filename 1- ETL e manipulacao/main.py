@@ -55,7 +55,6 @@ class Main:
 			db.execute_script('scripts\\3-truncate_stage.sql')
 			nrows = len(self.data.index)
 			id_count = db.get_query_result('scripts\\4-validate_entries.sql')
-			id_count = 41
 			del db
 			if nrows != id_count:
 				raise Exception("Not all records were loaded")

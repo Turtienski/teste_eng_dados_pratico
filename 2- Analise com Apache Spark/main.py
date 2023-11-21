@@ -48,11 +48,13 @@ class Main:
 			result.show()
 
 			# how many users return to the site more than once a week
-			# SELECT * FROM website_logs as a
+			# SELECT page_url, count(DISTINCT user_id) FROM website_logs as a
 			# JOIN website_logs as b
 			# ON a.user_id = b.user_id
+			# AND a.page_url = b.page_url
 			# AND a.date < b.date
 			# AND datediff(b.date, a.date) <= 7
+			# GROUP BY page_url
 
 			print("How many users return to the site more than once a week")
 			df1 = self.data.withColumn('final_date', sql.date_add(self.data['date'], 7))
