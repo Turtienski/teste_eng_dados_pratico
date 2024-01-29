@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://oss.sonatype.org/content/repositories/snapshots/org/postgresql/postgresql/9.2.jdbc3-SNAPSHOT/
+HostUrl=https://oss.sonatype.org/content/repositories/snapshots/org/postgresql/postgresql/9.2.jdbc3-SNAPSHOT/postgresql-9.2.jdbc3-20131022.000327-1.jar
