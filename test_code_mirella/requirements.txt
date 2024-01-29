@@ -1,0 +1,4 @@
+pyspark
+requests
+PyYaml
+boto3
