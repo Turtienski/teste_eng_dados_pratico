@@ -1,0 +1,7 @@
+sqlalchemy~=2.0.25
+psycopg2
+pyspark~=3.3.0
+soda-core
+soda-core-postgres
+pytest
+requests
